@@ -9,32 +9,18 @@ const About = () => {
       id="about"
       className="max-w-containerSmall mx-auto py-10 lgl:py-32 flex flex-col gap-8"
     >
+      {/* <span className="text-textGreen"></span> */}
       <SectionTitle title="About Me" titleNo="01" />
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-            Hello! My name is Noor Mohammad and I enjoy creating things that
-            live on the internet. My interest in web development started back in
-            2012 when I decided to try editing custom Tumblr themes — turns out
-            hacking together a custom reblog button taught me a lot about HTML &
-            CSS!
+           Hi, I am a Full Stack Developer passionate about building dynamic, user-friendly web applications. I specialize in the <span className="text-textGreen">MERN</span> stack (MongoDB, Express.js, React.js, and Node.js) and have experience developing full-stack projects, including real estate platforms, e-commerce websites, and job portals.
           </p>
           <p>
-            Fast-forward to today, and I had the privilege of working at an
-            advertising agency, a start-up,{" "}
-            <span className="text-textGreen">
-              a huge corporation, and a student-led design studio.
-            </span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio rem
-            accusantium fugiat veritatis, quidem repellat{" "}
-            <span className="text-textGreen">
-              ab natus possimus? Sint, accusamus!
-            </span>
+            I hold a Masters degree in <span className="text-textGreen">Computer Applications (MCA)</span> with <span className="text-textGreen"> 8.57 CGPA</span>, and I am always eager to expand my skill set by diving into new technologies. My hands-on experience with React, Tailwind CSS, Framer Motion, and Material UI allows me to create modern, responsive, and engaging front-end designs.
           </p>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem
-            ullam eligendi dolorum nostrum possimus quos iusto magnam ut esse
-            recusandae.
+            In addition to front-end expertise, I have built scalable backends using Node.js, Express.js, and MongoDB, with deployments on <span className="text-textGreen">Render </span>and <span className="text-textGreen">Vercel</span>. I am driven by solving real-world problems through coding, whether it is optimizing user experiences or streamlining complex workflows.
           </p>
           <p>Here are a few technologies I have been working with recently:</p>
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
@@ -96,10 +82,10 @@ const About = () => {
                 src={profileImg}
                 alt="profileImg"
               />
-              <div className="hidden lgl:inline-block absolute w-full h-80 bg-textGreen/20 rounded-md top-0 left-0 group-hover:bg-transparent duration-300"></div>
+              <div className="lgl:inline-block absolute w-full h-80 bg-textGreen/20 rounded-md top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
           </div>
-          <div className="hidden lgl:inline-flex w-full h-80 border-2 border-textGreen rounded-md group-hover:-translate-x-2 group-hover:-translate-y-2 transition-transform duration-300"></div>
+          <div className="lgl:inline-flex w-full h-80 border-2 border-textGreen rounded-md group-hover:-translate-x-8 group-hover:-translate-y-5 transition-transform duration-300"></div>
         </div>
       </div>
     </section>
