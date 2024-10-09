@@ -17,49 +17,25 @@ const Archive = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
         <ArchiveCard
-          title="Educare Engligh Learning Academy"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://www.educareenglishlearningacademy.com/"
+          title="MERN auth"
+          des="An advanced MERN authentication system, featuring email verification, password recovery, welcome emails"
+          listItem={["Reactjs", "Tailwind CSS", "Mailtrap"]}
+          link="https://github.com/PuneethKanike/MERN--Auth"
         />
         <ArchiveCard
-          title="Cyber Security Blog with live comments section"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://www.noormohmmad.com/"
+          title="Portfolio - v1"
+          des=" My v1 Portfolio with dark light mode, Hero, project, skills, a contact form, and a footer section."
+          listItem={["Reactjs", "Tailwind CSS", "Formspree"]}
+          link="https://github.com/PuneethKanike/my-portfolio/"
         />
         <ArchiveCard
-          title="ReactBD web development company"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://reactbd.com/"
-        />
-        <ArchiveCard
-          title="Amazon Clone with login, cart-option and payment intrigation."
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://amazonclone.reactbd.com/"
-        />
-        <ArchiveCard
-          title="JSON data (example data api for test projects)"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-              laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Nextjs", "Tailwind CSS", "next-router"]}
-          link="https://jsondata.reactbd.com/"
-        />
-        <ArchiveCard
-          title="Dynamic Responsive Portfolio"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://portfolioone.reactbd.com/"
+          title="Portfolio - v2"
+          des="Current viewing portfolio, with Hero, about, experience, project, contact section"
+          listItem={["Nextjs", "Tailwind CSS", "Framer motion"]}
+          link="https://github.com/PuneethKanike/my-portfolio-v2"
         />
 
-        {showMore && (
+        {/* {showMore && (
           <>
             <motion.div
               initial={{ opacity: 0 }}
@@ -179,9 +155,9 @@ const Archive = () => {
               />
             </motion.div>
           </>
-        )}
+        )} */}
       </div>
-      <div className="mt-12 flex items-center justify-center">
+      {/* <div className="mt-12 flex items-center justify-center">
         {showMore ? (
           <button
             onClick={() => setShowMore(false)}
@@ -197,7 +173,7 @@ const Archive = () => {
             Show More
           </button>
         )}
-      </div>
+      </div> */}
     </div>
   );
 };
