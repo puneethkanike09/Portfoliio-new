@@ -21,7 +21,7 @@ const Banner = () => {
       >
         Puneeth K.
         <span className="text-textDark mt-2 lgl:mt-4">
-          I build things for the web.
+          I build things for the <span className="text-textGreen">Web</span>.
         </span>
       </motion.h1>
       <motion.p

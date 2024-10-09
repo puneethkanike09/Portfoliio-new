@@ -43,7 +43,7 @@ export default function Home() {
             >
               <LeftSide />
             </motion.div>
-            <div className="h-[88vh] mx-auto p-4">
+            <div className="h-[88vh] mx-auto p-8">
               <Banner />
               <About />
               <Experience />
