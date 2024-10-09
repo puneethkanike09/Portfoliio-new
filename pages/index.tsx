@@ -100,12 +100,12 @@ const Home: React.FC = () => {
           {/* Mute/Unmute Button with Icon */}
           <button
             onClick={toggleMusic}
-            className="fixed bottom-5 right-[15px] md:bottom-10 md:right-[42px] p-3 bg-gray-800 text-white rounded-full"
+            className="fixed bottom-5 right-[15px] md:bottom-10 md:right-[42px] p-3 bg-transparent md:bg-hoverColor rounded-full"
           >
             {isPlaying ? (
-              <SpeakerWaveIcon className="h-3 w-3 md:h-5 md:w-5" /> // Volume up icon for playing state
+              <SpeakerWaveIcon className=" text-textGreen h-4 w-4 md:h-5 md:w-5" /> // Volume up icon for playing state
             ) : (
-              <SpeakerXMarkIcon className="h-3 w-3 md:h-5 md:w-5" /> // Volume off icon for muted state
+              <SpeakerXMarkIcon className="h-4 w-4 md:h-5 md:w-5" /> // Volume off icon for muted state
             )}
           </button>
         </main>
