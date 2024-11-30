@@ -33,7 +33,7 @@ const Banner = () => {
         I specialize in building responsive and dynamic web applications using the MERN stack. With a keen eye for design and a commitment to crafting seamless user experiences, I bring ideas to life through code. Explore my projects and see how I can help turn your vision into reality!{" "}
         
       </motion.p>
-      <a href="https://github.com/PuneethKanike" target="_blank">
+      <a href="https://github.com/puneethkanike09" target="_blank">
         <motion.button
           initial={{ y: 10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
